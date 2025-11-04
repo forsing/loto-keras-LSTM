@@ -97,8 +97,6 @@ print()
 print(f'The predicted next set of numbers is: {next_numbers}')
 print()
 """
-300
-
 The predicted next set of numbers is: [ 3  7 x x x 33 37]
 """
 

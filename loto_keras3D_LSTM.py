@@ -83,9 +83,9 @@ model.fit(trainX, trainY, epochs=300, batch_size=50, verbose=1)
 
 
 
-# -----------------------------
+# ---------------------------------
 # 6️⃣ Predikcija sledećeg izvlačenja
-# -----------------------------
+# ---------------------------------
 # uzmi poslednju sekvencu iz testX
 last_seq = testX[-1].reshape(1, look_back, 7)  # pravilno reshapen u 3D
 

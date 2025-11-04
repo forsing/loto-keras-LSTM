@@ -38,7 +38,7 @@ tf.random.set_seed(SEED)
 # -----------------------------
 # 2️⃣ Učitavanje i normalizacija
 # -----------------------------
-df = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7_4506_k87.csv', header=None)
+df = pd.read_csv('/data/loto7_4506_k87.csv', header=None)
 scaler = MinMaxScaler(feature_range=(0, 1))
 scaled_data = scaler.fit_transform(df.values)
 
@@ -99,7 +99,7 @@ print()
 """
 300
 
-The predicted next set of numbers is: [ 3  7 12 19 26 33 37]
+The predicted next set of numbers is: [ 3  7 x x x 33 37]
 """
 
 

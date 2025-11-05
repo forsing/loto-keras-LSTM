@@ -6,7 +6,6 @@ Apple                          M1
 """
 
 
-
 """
 bash
 
@@ -15,6 +14,18 @@ pip install tensorflow-macos keras
 python3 -c "from keras.models import Sequential; print('✅ Radi!')"
 """
 
+
+"""
+Loto Skraceni Sistemi 
+https://www.lotoss.info
+ABBREVIATED LOTTO SYSTEMS
+"""
+
+
+"""
+svih 4506 izvlacenja
+30.07.1985.- 04.11.2025.
+"""
 
 
 import os

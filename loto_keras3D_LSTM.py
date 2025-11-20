@@ -114,4 +114,22 @@ The predicted next set of numbers is: [ 3  7 x x x 33 37]
 
 
 
+
+"""
+python 3.11.13
+
+keras-3.12.0 
+ 
+tensorflow-macos-2.16.2
+
+tensorboard-2.16.2 
+tensorflow-2.16.2 
+tensorflow-io-gcs-filesystem-0.37.1 
+ml-dtypes-0.3.2
+typing-extensions-4.15.0
+
+numpy 1.26.4
+"""
+
+
  

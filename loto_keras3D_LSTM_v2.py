@@ -43,7 +43,7 @@ tf.random.set_seed(SEED)
 # -----------------------------
 # 2️⃣ Učitavanje i normalizacija
 # -----------------------------
-df = pd.read_csv('/Users/4c/Desktop/GHQ/data/loto7_4584_k23.csv', header=None)
+df = pd.read_csv('/data/loto7_4584_k23.csv', header=None)
 scaler = MinMaxScaler(feature_range=(0, 1))
 scaled_data = scaler.fit_transform(df.values)
 
@@ -122,7 +122,7 @@ print('Saved model: loto_keras3D_LSTM_v2.keras')
 124/130 [===========================>..] - ETA: 0s - loss: 0.0130/130 [==============================] - 1s 7ms/step - loss: 0.0305 - val_loss: 0.0288 - lr: 1.5625e-05
 
 The predicted next set of numbers is: 
-[ 5 10 15 20 25 30 35]
+[ 5 x 15 y 25 z 35]
 
 Test MSE: 0.03093841
 """
@@ -146,7 +146,3 @@ typing-extensions-4.15.0
 
 numpy 1.26.4
 """
-
-
- 
-
